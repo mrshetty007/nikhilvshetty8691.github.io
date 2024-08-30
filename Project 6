@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Project 2 - Phantom by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <style>
+        /* CSS to style the headings */
+        .heading {
+            font-weight: bold;
+            color: #f80101; /* Bright red color */
+            font-size: 24px;
+        }
+
+        /* CSS to style the paragraphs */
+        p {
+            color: #000; /* Black color */
+            font-weight: 505; /* Normal font weight */
+            margin-bottom: 0.5em; /* Reduced margin bottom */
+        }
+
+        /* Flexbox container for images */
+        .img-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px; /* Space between images */
+        }
+
+        .img1, .img2 {
+            width: 300px; /* Adjust this value as needed */
+            height: auto; /* Keeps the aspect ratio */
+        }
+
+        p1 {
+            color: #850703; /* Black color */
+            font-weight: 505; /* Normal font weight */
+            margin-bottom: 0.5em; /* Reduced margin bottom */
+        }
+
+        /* Adds space around the element */
+        .space1 {
+            margin-right: 40px; /* Adds 20px of margin on all sides */
+        }
+    </style>
+</head>
+<body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+        <!-- Header -->
+        <header id="header">
+            <div class="inner">
+                <!-- Logo -->
+                <a href="index.html" class="logo">
+                    <span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Your Name</span>
+                </a>
+                <!-- Nav -->
+                <nav>
+                    <ul>
+                        <li><a href="#menu">Menu</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- Menu -->
+        <nav id="menu">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="generic.html">Ipsum veroeros</a></li>
+                <li><a href="generic.html">Tempus etiam</a></li>
+                <li><a href="generic.html">Consequat dolor</a></li>
+                <li><a href="elements.html">Elements</a></li>
+            </ul>
+        </nav>
+        <!-- Main -->
+        <div id="main">
+            <div class="inner">
+                <h1>TABLEAU BIG DATA PROJECT DASHBOARD</h1>
+                <span class="image main"><img src="images/invpower bi main.jpg" alt="" /></span>
+                <div class="heading">Project Overview </div>
+                <p>
+                   This Project was a maketing project from a reputed AC and thermostat and other equipments manufacturer .               </p>
+                <div class="heading">Key Responsibilities</div>
+                <p>
+                    . To Connect the multiple data from snow flake and create a data flow in PREP  .
+                
+                </p>
+                <p>.To create 6 differnt dashboard like licenses , user details , commissioning report , Alerts and alrams report , Thermostate report ,QI report  .</p>
+                <p>.To be abel to connect data in prep and create flows so that data is useed like from snowflake   .</p>
+                <p>. To Create interactive and drillthrough charts for every dashboards   .</p>
+                <div class="heading">Files and Tools Involved</div>
+                <p>. Tableau Desktop</p>
+                <p>. Tableau PREP </p>
+                <p>. Tableau Online </p>
+                <p>. Excel </p>
+                <p>. AI Tool(Chat GPT)</p>
+                <p>. Share point to store all the data </p>
+                <p>. AWS  </p>
+                <div class="heading">Process</div>
+                <!--div class="img-container">
+                    <img src="images/inv bi tab view 1.jpg" alt="" class="img1" />
+                    <img src="images/inv bi tab view 2.jpg" alt="" class="img1" />
+                    <img src="images/inv data model.jpg" alt="" class="img1" />   
+                    <img src="images/inv data source.jpg" alt="" class="img1" />
+                    <img src="images/INV dax.jpg" alt="" class="img1" /-->
+
+                    <!-- Add more images if needed -->
+                </div>
+                
+                <p1> **Process and key Feature**:</p> 
+                    <p1>.Dynamic Firmware Analysis with Advanced Visualization Techniques .</p>
+                    <p>.enhanced the chart's functionality by adjusting colors and formatting, making the "up" and "down" logic visually intuitive.</p>
+                    <p>.Used custom-calculated fields to convert decimal firmware versions (e.g., 3.2.2) into numeric values, ensuring accurate sorting and analysis in Tableau.  <p>
+                    <p>.Designed a waterfall chart and many more to visualize device distribution across multiple firmware versions, emphasizing trends in recent firmware updates. </p>
+                    
+                    <p1>.Comprehensive Time-Based Reporting Solutions </p>
+                    <p>. Built dynamic calculations to handle weekly (Monday to Sunday) and other calendar-based comparisons for nuanced insights.</P>
+                    <p>.Implemented custom logic for comparing periods (weekly, monthly, quarterly, yearly) and for tracking trends over the current and previous years. .</p>
+                    <p>Developed advanced measures for tracking and visualizing user activity, alert counts, and reports generated within custom time frames (e.g., 10, 30, 60, 90 days). </p>
+                    
+                    <p1>Interactive Dashboard Design with Multi-Layered Navigation and Filters</p>
+                    <p>Developed buttons for top 10 and bottom 10 distributors based on total active licenses, incorporating complex sorting logic to prioritize data display. </p>
+                    <p>Designed filters that dynamically adjust based on territory, product type, brand, and customer segment, offering a tailored user experience. </p>
+                    <p>Created an interactive Tableau dashboard with custom navigation elements like buttons and icons for seamless transitions between pages.</p>
+
+                    <p1>Custom ETL Workflows and Data Integration Strategies</p>
+                    <p>Managed ETL processes by extracting and transforming data from five AWS databases, optimizing it for analysis in Snowflake Data Warehouse.</p>
+                    <p>Managed ETL processes by extracting and transforming data from five AWS databases, optimizing it for analysis in Snowflake Data Warehouse.</p>
+                    <p>Leveraged Tableau Prep for initial data preparation, with considerations for shifting to Tableau Server or Tableau Online to enhance data flow efficiency.</p>
+                    <p>Ensured smooth integration with client environments, offering options for publishing flows and extracts directly to Tableau Server.</p>
+                    <p>Innovative Data Visualizations and User Engagement Enhancements</p>
+                    <p>Focus on Unique Visual Elements and User Experience</p>
+                    <p>Advanced Calculated Fields and Measures for Tailored Insights</P>
+                    <p>Designing for Scalability and Future Growth</p>
+
+                <div class="heading">Result</div>
+                <p>
+                   
+                </p>
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="inner">
+                <section>
+                    <h2></h2>
+                    <form method="post" action="#">
+
+                    </form>
+                </section>
+                <section>
+                    <h2>Follow</h2>
+                    <ul class="icons">
+                        <li><a href="https://github.com/mrshetty007?tab=projects" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+                        <li><a href="https://www.linkedin.com/in/nikhil-shetty-b2bb241a4" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                        <li><a href="+91 9606621341" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
+                        <li><a href="nikhilvshetty8691@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+                    </ul>
+                </section>
+                <ul class="copyright">
+                    <li>&copy; Untitled. All rights reserved</li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
